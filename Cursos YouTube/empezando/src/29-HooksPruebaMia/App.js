@@ -24,7 +24,6 @@ const App = props => {
 	const [stTiempo, definirStTiempo] = useState(props.tiempo)
 
 	const cambiarNombre = pNombre => {
-		console.log("123")
 		definirStNombre(pNombre)
 	}
 

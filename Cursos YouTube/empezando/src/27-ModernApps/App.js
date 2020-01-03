@@ -12,7 +12,7 @@ class App extends React.Component{
 			texto: ""
 		}
 
-		//Con la Arrox Fx de abajo no necesito de esta línea
+		//Con la Arrox Fx de abajo no necesito de esta línea:
 		//this.handleChanges = this.handleChanges.bind(this)
 		//Cambiar de esto:'handleChanges(event){' a esto: 'handleChanges = (event) => {'
 	}*/

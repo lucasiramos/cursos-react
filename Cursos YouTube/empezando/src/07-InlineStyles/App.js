@@ -1,4 +1,4 @@
-import React from "react"
+	import React from "react"
 
 function App(){
 	const Nombre = "Lucas"
@@ -25,8 +25,8 @@ function App(){
 
 	const styles={
 		color: "#FF0030",
-		backgroundColor: "#FFCC30",
-		paddingTop: 30,
+		backgroundColor: "#FFCC30", // NO se usan guiones, se reemplaza por Camel Case
+		paddingTop: 30,				// background-color -> backgroundColor
 		fontSize: "55px"
 	}
 

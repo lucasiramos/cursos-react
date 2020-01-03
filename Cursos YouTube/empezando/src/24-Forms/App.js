@@ -1,3 +1,5 @@
+//Buscar librería Formik para escribir formularios en React
+
 import React from 'react'
 
 class App extends React.Component{
@@ -16,7 +18,7 @@ class App extends React.Component{
 
 	handleChange(event){
 		const {name, value, type, checked} = event.target
-		type === "checkbox" ? this.setState({[name]: checked})	 : this.setState({[name]: value})
+		type === "checkbox" ? this.setState({[name]: checked}) : this.setState({[name]: value})
 	}
 
 	handleSubmit(){
@@ -32,6 +34,7 @@ class App extends React.Component{
 	render(){
 		return(
 			<form onSubmit={this.handleSubmit}>
+				<h2><a href="https://jaredpalmer.com/formik/">https://jaredpalmer.com/formik/</a> (chequear esto!)</h2>
 				<input type="text" value={this.state.firstName} name="firstName" placeholder="First name" onChange={this.handleChange} /> <br /><br />
 				<input type="text" value={this.state.lastName} name="lastName" placeholder="Last name" onChange={this.handleChange} /> <br /><br />
 				<h1>{this.state.firstName} {this.state.lastName}</h1>

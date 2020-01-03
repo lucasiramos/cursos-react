@@ -17,7 +17,7 @@ class App extends React.Component{
 					: null
 			}*/
 			// Si no quiero que devuelva nada, como el caso de arriba, puedo reemplazar esta ternaria por &&:
-			// O sea, en ifs sin elses
+			// O sea, como en ifs sin elses
 
 			<div>
 				{	

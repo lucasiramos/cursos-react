@@ -25,15 +25,16 @@ class App extends React.Component{
 			})*/
 
 		const proxyurl = "https://cors-anywhere.herokuapp.com/";
-		const url = "http://swapi.co/api/people/1"
+		const url = "https://randomuser.me/api/?results=10" // "http://swapi.co/api/people/1"
 	
-		fetch(proxyurl + url)
+		//fetch(proxyurl + url)
+		fetch(url)
 			.then(response => response.json())
 			.then(contents => {
 				console.log(contents)
-				this.setState(
+				/*this.setState(
 					{character: contents, loading: false}
-				)
+				)*/
 			})
 			.catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))
 		//Con esto debería traer un objeto de un personaje de Star Wars, ahora lo hago a mano hasta que venga internet
