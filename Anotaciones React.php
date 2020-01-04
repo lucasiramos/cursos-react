@@ -2,6 +2,8 @@
 
 Pendientes para revisar:
 
+Ver bien (y armar ejemplo) de burbujeo de funciones/acciones
+
 React.memo()
 React.Fragment (?)
 
@@ -10,6 +12,14 @@ reacttraining.com
 React Router
 	Ver como poner más de un parámetro
 
+	Cuando llamo al constructor (en caso de usarlo en un Class based component), tengo que armar el constructor así (con los props como parámetros):
+		export default class [NOMBRE_COMPONENTE] extends Component{
+			constructor(props){
+				super(props)
+
+				console.log(this.props)
+			}
+
 Forms
 	https://reactjs.org/docs/forms.html
 	Librería Formik para React (Ver) // Librería que se instala y te ayuda con los formularios
@@ -17,9 +27,17 @@ Forms
 HOC
 
 React Context - repasar por las dudas... sería como un estado global??
+	Creo que lo que esta en value de:
+		render(){
+			return(
+				<RoomContext.Provider 
+					value
+	es lo que se hace público.
 
 
+Cuando hace scroll para abajo, que "haga algo" (cargue más elementos, actualice los items del listado que aparecen en la pantalla, para que no se carguen todos de una)
 
+¿Cuando le pongo un "const" a las arrow functions?
 
 
 ************************************************************************
