@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5, h6{
+	margin: 0px
+}
+
+.principal{
+	border: 3px solid black;
+	padding: 20px;
+}
+
+.primer{
+	border: 3px solid green;
+	padding: 20px;	
+	margin-top: 20px;
+}
+
+.segundo{
+	border: 3px solid red;
+	padding: 20px;	
+	margin-top: 20px;
+}
+
+.tercer{
+	border: 3px solid yellow;
+	padding: 20px;	
+	margin-top: 20px;
+}
+
+.random{
+	margin-top: 10px;
+	font-size: 22px;
+}
