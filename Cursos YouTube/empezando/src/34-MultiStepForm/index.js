@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import ReactDOM from 'react-dom';
 
-import App from './33-ReactContextDevEd/App';
+import App from './34-MultiStepForm/App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
