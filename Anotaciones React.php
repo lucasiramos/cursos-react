@@ -20,6 +20,9 @@ React Router
 				console.log(this.props)
 			}
 
+	Ir a una ruta mediante programación
+		https://tylermcginnis.com/react-router-programmatically-navigate/
+
 Forms
 	https://reactjs.org/docs/forms.html
 	Librería Formik para React (Ver) // Librería que se instala y te ayuda con los formularios

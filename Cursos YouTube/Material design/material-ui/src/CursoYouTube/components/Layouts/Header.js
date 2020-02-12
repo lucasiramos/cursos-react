@@ -2,7 +2,7 @@ import React from 'react';
 
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
 
-import CreateDialog from '../Exercises/Dialogs/Create'
+import CreateDialog from '../Exercises/Dialog'
 
 const Header = ({ muscles, onExerciseCreate }) => {
 	return(

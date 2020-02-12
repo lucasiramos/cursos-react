@@ -23,6 +23,11 @@ const App = props => {
 	const [stApellido, definirStApellido] = useState(props.apellido)
 	const [stTiempo, definirStTiempo] = useState(props.tiempo)
 
+	console.log("¿Render?")
+	console.log(props.tiempo)
+	console.log(stTiempo)
+	console.log("--------------------------------")
+
 	const cambiarNombre = pNombre => {
 		definirStNombre(pNombre)
 	}
